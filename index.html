@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happiest Birthday Dekisukii 🎀</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 🎀 Birthday Section -->
+    <div class="container" id="birthdaySection">
+      <h1>Happiest Birthday Dekisukii 🎀</h1>
+      <p id="question">
+        Since it’s your special day, I <i>guess</i> I’ll be nice and send you an
+        invite—otherwise, I might’ve just ignored yours 😜<br />
+        So… will you come meet me?
+      </p>
+
+      <div id="buttons">
+        <button id="noBtn">No</button>
+        <button id="yesBtn">Yes</button>
+      </div>
+
+      <p id="response" class="hidden"></p>
+    </div>
+
+    <!-- 🎓 CA Certification Portal - outside the birthday box -->
+    <div class="ca-portal hidden" id="caPortal">
+      <h1>🔐 Chartered Access Portal</h1>
+      <p>
+        Welcome, Dekisukii. Please verify your eligibility to receive your
+        <em>very serious</em> CA certificate.
+      </p>
+      <button class="btn" onclick="requestCertificate()">
+        Request CA Certificate
+      </button>
+
+      <div class="loader" id="loader">
+        🕵️‍♂️ Verifying financial vibe consistency...
+      </div>
+
+      <div class="certificate" id="certificate">
+        <h2>🎓 CA Certification of Legendary Status</h2>
+        <p>
+          This certifies that <strong>Dekisukii</strong> is now officially
+          recognized as a
+        </p>
+        <h3>💼 Chartered Legend™</h3>
+        <p>
+          for consistently balancing logic and vibes since birth. And managing
+          Tulsi's overthinking since few months..n many more to go..
+        </p>
+        <p><i>“Audit Level: God Mode”</i></p>
+        <p>
+          🧾 Formula Validated: <code>Assets = Cake + Friends – Sleep</code>
+        </p>
+        <p>
+          Issued by: <strong>[Your_WellWisher!]</strong><br />On behalf of the
+          Board of Run-to-Rant™
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
